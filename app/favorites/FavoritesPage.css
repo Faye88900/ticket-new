@@ -1,0 +1,44 @@
+.favorites-page {
+  padding: 20px;
+  background: #f5e1e1;
+  min-height: 100vh;
+}
+
+.favorite-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.favorite-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.favorite-card:hover {
+  transform: translateY(-5px);
+}
+
+.favorite-img {
+  width: 100%;
+  height: 180px;         /* 固定高度 */
+  object-fit: cover;     /* 让图片填满裁剪，而不是变形 */
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.favorite-card h2 {
+  font-size: 18px;
+  margin: 8px 0;
+  font-weight: bold;
+}
+
+.favorite-card p {
+  font-size: 14px;
+  color: #555;
+  margin: 4px 0;
+}

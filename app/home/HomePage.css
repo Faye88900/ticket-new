@@ -1,0 +1,94 @@
+.homepage {
+  padding: 20px;
+}
+
+/* 顶部标题和按钮 */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #02091a; /* 蓝色 */
+}
+
+.my-orders-btn {
+  padding: 10px 20px;
+  background-color: #16a34a; /* 绿色 */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background 0.2s;
+}
+
+.my-orders-btn:hover {
+  background-color: #15803d; /* 深绿色 */
+}
+
+/* Banner 样式 */
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.banner > * {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.event-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.event-card {
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 6px rgba(42, 177, 132, 0.1);
+  text-align: center;
+  position: relative;
+}
+
+.event-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.fav-btn {
+  margin-top: 10px;
+  padding: 8px 12px;
+  border: none;
+  background: #ff4b5c;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 14px;
+}
+.fav-btn:hover {
+  background: #d4b60a33;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 20px; /* ⭐ 这里控制按钮间距 */
+}
